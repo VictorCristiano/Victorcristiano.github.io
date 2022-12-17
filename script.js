@@ -35,3 +35,11 @@ controls.forEach(control => {
     items[currentItem].classList.add("current-item")
   })
 })
+
+
+// controles projetos carrosel
+
+const controlsp = document.querySelectorAll(".control-projetos");
+let projetoCurrent = 0;
+const projetos = document.querySelectorAll("projeto");
+const maxProjetos = projetos.length;
